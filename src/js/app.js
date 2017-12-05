@@ -1,8 +1,13 @@
-// import { form } from './form.js';
-
-document.addEventListener('DOMContentLoaded', function() {
-
+import {lightbox} from './lightbox.js';
+import {typing} from './typing.js';
 
 
+$( () => {
 
-});
+    typing();
+    lightbox();
+    
+    
+    
+
+})
