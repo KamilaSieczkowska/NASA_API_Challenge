@@ -262,24 +262,29 @@ html, body {
                 margin: 0;
                 img {
                     width: 100%;
+                    cursor: pointer;
                 }
             }
         }
     } 
-    
-    .load__more {
-        position: relative;
-        left: 43.5%;
-        background-color: #D60202;
-        color: #FFF;
-        text-transform: uppercase;
-        padding: 15px 25px;
-        border-radius: 3px;
-        border: 0;
-        margin-top: 30px;
 
-        &:hover {
-            background-color: #920000;
+    .btn__more__box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .load__more {
+            background-color: #D60202;
+            color: #FFF;
+            text-transform: uppercase;
+            padding: 15px 25px;
+            border-radius: 3px;
+            border: 0;
+            margin-top: 30px;
+    
+            &:hover {
+                background-color: #920000;
+            }
         }
     }
 }
@@ -300,22 +305,24 @@ html, body {
     align-items: center;
 
     .lightbox__container {
-        min-width:200px;
-        min-height:200px;
-        background: #fff;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.7);
-        padding:20px;
+        width: 80%;
+        height: 80vh;
+        min-height: 10px;
+        margin: 1% auto;
+        border: 5px solid #fff;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
         position: relative;
 
         .lightbox__close {
             position: absolute;
-            right:-15px;
-            top:-15px;
-            width:30px;
-            height:30px;
-            border-radius: 50%;
-            background: #222;
-            border:2px solid #fff;
+            right:-20px;
+            top:-20px;
+            width:50px;
+            height:50px;
+            background: #b70000;
+            border: none;
             font-size:16px;
             color:#fff;
             box-shadow: 0 2px 5px rgba(0,0,0,0.7);
