@@ -1,6 +1,6 @@
 function uploadGallery(){
     
-    let nasaAPI = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=345&api_key=J0MCwnniX5tD5Hd0fymDwHTwztHBtyMYfx18aqvR'
+    let nasaAPI = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=55&api_key=J0MCwnniX5tD5Hd0fymDwHTwztHBtyMYfx18aqvR'
     
     var lastImage = 0;
     let gallery = $('#images__container')
