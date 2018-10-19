@@ -19,7 +19,7 @@ const handleError = function(err) {
 
 gulp.task('browseSync', function() {
     browserSync.init({
-        server: "./dist",
+        server: "./",
         notify: false,
         host: '192.168.0.24', //IPv4 Address Wirless LAN adapter WiFi from ipconfig
         //port: 3000,
